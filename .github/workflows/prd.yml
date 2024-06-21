@@ -1,4 +1,4 @@
-name: RPA de banco #nome do teste
+name: pipeline PRD #nome do teste
 
 # trigger (gatilho)
 on: 
