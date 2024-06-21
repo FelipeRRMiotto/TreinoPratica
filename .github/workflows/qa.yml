@@ -1,9 +1,12 @@
-name: pipeline PRD #nome do teste
+name: pipeline QA #nome do teste
 
 # trigger (gatilho)
 on: 
   pull_request: # o que vai ativar esse gatilho
-    branches: ["PRD"] # e qual a branch que vai gerar o gatilho (["*"] todas as branches)
+    branches: ["QA"] # e qual a branch que vai gerar o gatilho (["*"] todas as branches)
+  push: # o que vai ativar esse gatilho
+    branches: ["QA"] # e qual a branch que vai gerar o gatilho (["*"] todas as branches)
+
 
 # define o que ele vai verificar
 jobs:
